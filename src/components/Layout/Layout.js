@@ -2,10 +2,11 @@ import React from "react";
 
 import Axlr from "../../hoc/Axlr";
 import styles from "./Layout.css";
+import Toolbar from "../Navigation/Toolbar/Toolbar";
 
 const layout = (props) => (
     <Axlr>
-        <div>Toolbar, SideDrawer, Backdrop</div>
+        <Toolbar />
         <main className={styles.Content}>
             {props.children}
         </main>
