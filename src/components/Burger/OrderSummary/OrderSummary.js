@@ -11,7 +11,8 @@ const orderSummary = (props) => {
                     <span style={{textTransform: "capitalize"}}>{ingKey}</span>: {props.ingredients[ingKey]}
                 </li>);
         });
-    return (
+
+    return(
         <Axlr>
             <h3>Your Order</h3>
             <p>Ingredients:</p>
@@ -24,6 +25,6 @@ const orderSummary = (props) => {
             <Button clicked={props.purchaseCancellation} btnType="Danger">CANCEL</Button>
         </Axlr>
     )
-};
+}
 
 export default orderSummary;
