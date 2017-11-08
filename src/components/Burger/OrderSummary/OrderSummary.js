@@ -1,6 +1,6 @@
 import React from "react";
 
-import Axlr from "../../../hoc/Axlr";
+import Axlr from "../../../hoc/Axlr/Axlr";
 import Button from "../../UI/Button/Button";
 
 const orderSummary = (props) => {

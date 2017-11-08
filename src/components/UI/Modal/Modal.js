@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 
 import styles from "./Modal.css";
-import Axlr from "../../../hoc/Axlr";
+import Axlr from "../../../hoc/Axlr/Axlr";
 import Backdrop from "../Backdrop/Backdrop";
 
 class Modal extends Component {
     shouldComponentUpdate(nextProps, nextState) {
-        return nextProps.display !== this.props.display;
+        return nextProps.display !== this.props.display || nextProps.children !== this.props.children;
     }
 
     componentWillUpdate() {

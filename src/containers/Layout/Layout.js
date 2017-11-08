@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-import Axlr from "../../hoc/Axlr";
+import Axlr from "../../hoc/Axlr/Axlr";
 import styles from "./Layout.css";
 import Toolbar from "../../components/Navigation/Toolbar/Toolbar";
 import SideDrawer from "../../components/Navigation/SideDrawer/SideDrawer";
